@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <version>5.0.0-bleeding-0</version>
+    <authors>Sky Sanders</authors>
+    <owners>Sky Sanders</owners>
+    <licenseUrl>http://cassinidev.codeplex.com/license</licenseUrl>
+    <projectUrl>http://cassinidev.codeplex.com/</projectUrl>
+    <iconUrl>http://download.codeplex.com/Download?ProjectName=cassinidev&amp;DownloadId=123365&amp;Build=18101</iconUrl>
+    <dependencies>
+      <dependency id="Common.Logging" />
+    </dependencies>
+    <id>CassiniDev</id>
+    <title>CassiniDev</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <tags>CassiniDev CassiniDev WebServer</tags>
+    <description>Self-contained hostable ASP.NET web server providing an open platform for developing a robust ASP.Net web server implementation that addresses many of the limitations and difficulties encountered when using Cassini and/or VS Development Server.</description>
+    <summary>Self-contained hostable ASP.NET web server well suited for self hosting, testing and continuous integration environments</summary>
+    <language>en-US</language>
+
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev-lib.dll" target="lib\net35" />
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev-lib.pdb" target="lib\net35" />
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev-lib.xml" target="lib\net35" />
+
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev4-lib.dll" target="lib\net40" />
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev4-lib.pdb" target="lib\net40" />
+    <file src="..\dist\lib\CassiniDev\bin\**\CassiniDev4-lib.xml" target="lib\net40" />
+    
+
+    <file src="lib\src\**\*.cs" target="src" />
+  </files>
+</package>
