@@ -1,8 +1,8 @@
 # CassiniDev - Portable ASP.NET Web Server
 This repository's source code is modified to be build with Visual Studio 2022 Preview 4 and .NET Framework 4.8.
 
-A fork of the original (http://cassinidev.codeplex.com) project.
-*Note: Codeplex.com was shutdown on October 21, 2021. It was originally a free open source project hosting site provided by Microsoft.
+A fork of the original (http://cassinidev.codeplex.com) project.<br>
+_*Note: Codeplex.com was shutdown on October 21, 2021. It was originally a free open source project hosting site provided by Microsoft._
 
 The ASP.NET version of XAMPP, WampServer, etc.
 
