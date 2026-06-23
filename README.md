@@ -1,5 +1,11 @@
 # CassiniDev - Portable ASP.NET Web Server
 
+New alternative project: **Hearth Portable ASP.NET Web Server (Published on 22/6/2026)**
+
+Read more: [https://github.com/ASP-NET-Web-Forms-Club/Hearth-ASPNET-Server](https://github.com/ASP-NET-Web-Forms-Club/Hearth-ASPNET-Server)
+
+----
+
 A fork of the original (http://cassinidev.codeplex.com) project.<br>
 _*Note: Codeplex.com was shutdown on October 21, 2021. It was originally a free open source project hosting site provided by Microsoft._
 
